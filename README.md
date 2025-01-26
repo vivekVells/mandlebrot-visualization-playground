@@ -12,7 +12,7 @@ A simple implementation of the Mandelbrot set visualization Playground.
 
 Place your generated Mandelbrot set images here:
 
-![Mandelbrot Set](./images/mandelbrot.png)
+![Mandelbrot Set](./demo/v1.png)
 
 ## Running the Project
 
