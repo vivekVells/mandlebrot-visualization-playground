@@ -1,11 +1,11 @@
 import React from 'react';
-import MandelbrotSet from './components/MandelbrotSet';
 import './styles.css';
+import MandelbrotPlayground from './components/MandelbrotPlayground';
 
 function App() {
   return (
     <div className="App">
-      <MandelbrotSet />
+      <MandelbrotPlayground />
     </div>
   );
 }
