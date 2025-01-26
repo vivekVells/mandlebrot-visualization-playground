@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+canvas {
+  max-width: 100%;
+  height: auto;
+}
