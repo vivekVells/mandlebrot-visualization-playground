@@ -12,7 +12,16 @@ A simple implementation of the Mandelbrot set visualization Playground.
 
 Place your generated Mandelbrot set images here:
 
-![Mandelbrot Set](./demo/v1.png)
+### Home View
+
+![Mandelbrot Set](./demo/v2.png)
+
+### Zoomed views
+
+![Mandelbrot Set](./demo/v2_zoomed_view_8x.png)
+![Mandelbrot Set](./demo/v2_zoomed_view_16x.png)
+![Mandelbrot Set](./demo/v2_zoomed_view_256x.png)
+![Mandelbrot Set](./demo/v2_zoomed_view_2048x.png)
 
 ## Running the Project
 
