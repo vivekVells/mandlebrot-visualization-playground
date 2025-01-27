@@ -18,10 +18,11 @@ Place your generated Mandelbrot set images here:
 
 ### Zoomed views
 
-![Mandelbrot Set](./demo/v2_zoomed_view_8x.png)
-![Mandelbrot Set](./demo/v2_zoomed_view_16x.png)
-![Mandelbrot Set](./demo/v2_zoomed_view_256x.png)
-![Mandelbrot Set](./demo/v2_zoomed_view_2048x.png)
+| 8x Zoom | 16x Zoom |
+|---------|----------|
+| ![Mandelbrot Set 8x](./demo/v2_zoomed_view_8x.png) | ![Mandelbrot Set 16x](./demo/v2_zoomed_view_16x.png) |
+| **256x Zoom** | **2048x Zoom** |
+| ![Mandelbrot Set 256x](./demo/v2_zoomed_view_256x.png) | ![Mandelbrot Set 2048x](./demo/v2_zoomed_view_2048x.png) |
 
 ## Running the Project
 
