@@ -39,7 +39,6 @@ const MandelbrotPlayground = () => {
     };
   }, []);
 
-  // Main Mandelbrot set generation
   const generateMandelbrot = useCallback((width, height, maxIter) => {
     const canvas = document.createElement('canvas');
     canvas.width = width;
@@ -69,7 +68,7 @@ const MandelbrotPlayground = () => {
   }, [calculatePoint, centerX, centerY, zoom]);
 
   const getColor = (iteration, maxIter) => {
-    if (iteration === maxIter) return [0, 0, 0]; // Inside set color
+    if (iteration === maxIter) return [0, 0, 0];
     
     const percentage = (iteration * 100) / maxIter;
     
@@ -85,7 +84,6 @@ const MandelbrotPlayground = () => {
     }
   };
 
-  // Handle image click
   const handleImageClick = (event) => {
     const rect = event.target.getBoundingClientRect();
     const x = event.clientX - rect.left;
@@ -105,7 +103,6 @@ const MandelbrotPlayground = () => {
     }
   };
 
-  // Reset view to initial state
   const resetView = () => {
     setCenterX(-0.5);
     setCenterY(0);
@@ -134,6 +131,32 @@ const MandelbrotPlayground = () => {
   
   return (
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+      <div 
+        style={{ 
+          width: '100%', 
+          backgroundColor: '#1890ff', 
+          padding: '12px 0', 
+          marginBottom: 24,
+          textAlign: 'center',
+          color: 'white'
+        }}
+      >
+        📖 Learn more about the mathematics and computing behind this visualization in the{' '}
+        <a 
+          href="https://medium.com/@vivekvells/understanding-the-mandelbrot-set-a-beautiful-benchmark-for-computing-power-015dcd79f3a4"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ 
+            color: 'white', 
+            textDecoration: 'underline', 
+            fontWeight: 'bold',
+            borderBottom: '2px solid white'
+          }}
+        >
+          technical blog post
+        </a>
+      </div>
+
       <Card title="Mandelbrot Set Playground" bordered={false} style={{ width: '100%', maxWidth: 960 }}>
         <Tabs activeKey={playgroundMode} onChange={setPlaygroundMode} centered>
           <Tabs.TabPane tab="Explore Mode" key="explore">

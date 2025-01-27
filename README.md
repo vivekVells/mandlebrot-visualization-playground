@@ -2,6 +2,14 @@
 
 A simple implementation of the Mandelbrot set visualization Playground.
 
+## Live Demo
+
+Check out the live playground: [Mandelbrot Visualization Playground](https://mandlebrot-visualization-playground.pages.dev/)
+
+## Learn More
+
+Read the detailed technical blog post: [Understanding the Mandelbrot Set: A Beautiful Benchmark for Computing Power](https://medium.com/@vivekvells/understanding-the-mandelbrot-set-a-beautiful-benchmark-for-computing-power-015dcd79f3a4)
+
 ## Generated Images
 
 Place your generated Mandelbrot set images here:
